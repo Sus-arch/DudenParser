@@ -43,7 +43,7 @@ def definieren(word):
 
 
 def main():
-    content = definieren(str(input("Введите слово: ")).strip())
+    content = definieren(str(input("Enter a word: ")).strip())
     for i, item in enumerate(content):
         print(f"{i + 1}. {item.strip()}")
 
